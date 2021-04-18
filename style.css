@@ -1,0 +1,15 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:sans-serif;
+}
+  
+body{
+    background: white;
+  }
+.main{
+    display: flex;
+}
+.left{flex:1}
+.right{flex:2}
