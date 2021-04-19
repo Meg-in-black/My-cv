@@ -6,10 +6,39 @@
 }
   
 body{
-    background: white;
+    color: white;
   }
 .main{
     display: flex;
+    margin-left: 15%;
+    margin-right: 15%;
+    margin-top: 0.7%;
+    
 }
-.left{flex:1}
-.right{flex:2}
+/* .left{flex:1}
+.right{flex:2} */
+.logo{
+    height: 6rem;
+}
+img{
+    color: white;
+    font-size: 0.6rem;
+}
+.main{
+    display: flex;
+}
+.left{
+    padding: 20px;
+    background: rgb(20, 19, 22);
+    width: 30%;
+    margin-left: 5px;
+    margin-right: 7px;
+}
+
+
+.right{
+    padding: 20px;
+    width: 65%;
+    background: black;
+    box-shadow: black 5px 3px 4px;
+}
